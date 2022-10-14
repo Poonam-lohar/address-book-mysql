@@ -1,0 +1,9 @@
+create database AddressBookService;
+show databases;
+create database AddressBookService;
+use addressbookservice;
+create table AddressBook(firstname varchar(50) not null,lastname varchar(50) not null,address varchar(100) not null,city varchar(50) not null,state varchar(50) not null,zip int not null,phonenumber double not null,email varchar(100) not null);
+desc AddressBook;
+insert into AddressBook(firstname,lastname,address,city,state,zip,phonenumber,email) values('lohar','poonam','sambhaji chowk','shirol','maharashtra',416103,98765432134,'loharpoonam98@gmail.com');
+insert into AddressBook(firstname,lastname,address,city,state,zip,phonenumber,email) values('mane','srushti','wadi road','shirol','maharashtra',416103,8765432134,'srushtimane@gmail.com');
+select * from Addressbook;
