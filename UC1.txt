@@ -1,0 +1,4 @@
+create database AddressBookService;
+show databases;
+create database AddressBookService;
+use addressbookservice;
